@@ -1,4 +1,4 @@
-    public class MultiplicarRecursivo {
+    public class Exercicio1 {
         public static int multiplicar(int a, int b) {
             if (b == 0) {
                 return 0;
