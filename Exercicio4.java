@@ -1,4 +1,4 @@
-// Inversão de uma string.
+// Inversão de uma ‘string’.
 public class Exercicio4 {
     public static String inverter(String s) {
         if (s.isEmpty()) {

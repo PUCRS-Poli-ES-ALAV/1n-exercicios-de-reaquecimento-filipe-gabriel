@@ -3,11 +3,10 @@
             if (b == 0) {
                 return 0;
             }
-            int resultado = a + multiplicar(a, b - 1);
-            return resultado;
+            return a + multiplicar(a, b - 1);
         }
         public static void main(String[] args) {
-            System.out.println("Resultado final: " + multiplicar(4, 6)); // Exemplo: 4 * 6 = 24
+            System.out.println(multiplicar(4, 6)); // Exemplo: 4 * 6 = 24
         }
     }
 
